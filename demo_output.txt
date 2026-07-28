@@ -1,0 +1,24 @@
+Request: Add a primary button labeled Submit
+Plan: ['parse_intent', 'select_component', 'configure_label_style', 'emit_angular_stub']
+Component: AppButton
+Stub preview:
+// Generated from request: Add a primary button labeled Submit
+import { Component, Input } from '@angular/core';
+
+@Component({
+  selector: 'app-button',
+  template: `<div class="app-button">{{ /* bound inputs */ }}</div>`,
+})
+export class A...
+---
+Request: Add a data table for employees with name and department columns
+Plan: ['parse_intent', 'select_component', 'configure_columns', 'emit_angular_stub']
+Component: AppDataTable
+Stub preview:
+// Generated from request: Add a data table for employees with name and department columns
+import { Component, Input } from '@angular/core';
+
+@Component({
+  selector: 'app-data-table',
+  template: `<div class="app-data-table">{{ /* bound in...
+---
