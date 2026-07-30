@@ -1,7 +1,7 @@
 # UI Component Agent Bot
 
-**Resume project · SPT work unit**  
-**Capability:** natural-language UI intent → structured component plan → Angular-ready stub  
+Agent that maps natural-language UI requests to component specs and emits Angular-ready stubs.
+
 **Background:** Centre for Advanced Technology Solutions, GITAM · May 2024 – Dec 2024  
 **Stack:** Python agent · component catalog · Angular-style TypeScript stubs
 
@@ -11,22 +11,11 @@
 
 Internal UI prototyping was slow when every request started from a blank component. Staff/dev requests needed a controllable path from language → component → stub — not an open-ended chat toy.
 
-## What I built
+## What it does
 
 1. Parse a natural-language UI request  
 2. Plan which catalog component to emit  
 3. Emit an Angular-ready stub (plan → act → emit)  
-
-Resume anchor: *Built an agent that maps natural-language UI requests to component specs and emits Angular-ready stubs. Owned plan–act–emit loop and front-end integration for faster internal UI prototyping.*
-
-## SPT bar (junior standard)
-
-| Step | Artifact |
-|------|----------|
-| Build | `src/ui_agent/` · `frontend/` |
-| Verify | `python -m pytest -q` |
-| Demo | `python run_demo.py` · [`demo_output.txt`](./demo_output.txt) |
-| Document | this README |
 
 ## Quick start
 
@@ -36,6 +25,8 @@ pip install -r requirements.txt
 python -m pytest -q
 python run_demo.py
 ```
+
+Demo output: [`demo_output.txt`](./demo_output.txt)
 
 ## Design notes
 
@@ -56,4 +47,4 @@ demo_output.txt
 
 ## Portfolio
 
-Full Experience · Projects · SPT → [mkm-007/MKM](https://github.com/mkm-007/MKM)
+[mkm-007/MKM](https://github.com/mkm-007/MKM) · [Live site](https://mkm-007.github.io/MKM/)
